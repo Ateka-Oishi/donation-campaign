@@ -1,0 +1,134 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/1bm4bqY/Education.png",
+      "title": "Education Fund",
+      "description": "Stand with underprivileged children as they journey toward education and a brighter, promising future.",
+      "category": "Education",
+      "category_bg": "#FF5733",
+      "card_bg": "#071952",
+      "text_button_bg": "#337CCF",
+      "price": 55
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/7g1kNwg/Food.png",
+      "title": "Feeding the Hungry",
+      "description": "In our mission to end hunger, let's sprinkle a touch of love by sharing nourishing meals with those in need.",
+      "category": "Food & Hunger",
+      "category_bg": "#451952",
+      "card_bg": "#12486B",
+      "text_button_bg": "#071952",
+      "price": 20
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/kQhVWNP/Health.png",
+      "title": "Medical Assistance",
+      "description": "Extend healing through medical aid, ensuring that every individual enjoys equal access to healthcare.",
+      "category": "Healthcare",
+      "category_bg": "#2E4374",
+      "card_bg": "#071952",
+      "text_button_bg": "#337CCF",
+      "price": 100
+    },
+    {
+      "id": 4,
+      "picture": "https://ibb.co/cwJQkGq",
+      "title": "Environmental Conservation",
+      "description": "Support conservation initiatives to safeguard our precious planet.",
+      "category": "Environment",
+      "category_bg": "#FF5733",
+      "card_bg": "#12486B",
+      "text_button_bg": "#071952",
+      "price": 25
+    },
+    {
+      "id": 5,
+      "picture": "https://ibb.co/xLGyHKs",
+      "title": "Animal Welfare",
+      "description": "Stand alongside animal welfare champions as they nurture and protect vulnerable creatures.",
+      "category": "Animals",
+      "category_bg": "#451952",
+      "card_bg": "#071952",
+      "text_button_bg": "#337CCF",
+      "price": 60
+    },
+    {
+      "id": 6,
+      "picture": "https://ibb.co/RYhkgcV",
+      "title": "Community Development",
+      "description": "Empower under-served communities through active involvement in community development initiatives.",
+      "category": "Community",
+      "category_bg": "#2E4374",
+      "card_bg": "#12486B",
+      "text_button_bg": "#071952",
+      "price": 70
+    },
+    {
+      "id": 7,
+      "picture": "https://ibb.co/72fKvzq",
+      "title": "Disaster Relief",
+      "description": "Embrace the cause of disaster relief to assist those impacted by natural upheavals and emergencies.",
+      "category": "Emergency",
+      "category_bg": "#FF5733",
+      "card_bg": "#071952",
+      "text_button_bg": "#337CCF",
+      "price": 55
+    },
+    {
+      "id": 8,
+      "picture": "https://ibb.co/jW99BWg",
+      "title": "Arts & Culture",
+      "description": "Cherish and advance the rich tapestry of arts and culture by generously supporting cultural institutions.",
+      "category": "Arts & Culture",
+      "category_bg": "#451952",
+      "card_bg": "#12486B",
+      "text_button_bg": "#071952",
+      "price": 45
+    },
+    {
+      "id": 9,
+      "picture": "https://ibb.co/RCfX21t",
+      "title": "Child Welfare",
+      "description": "Secure the happiness and prosperity of children by championing child welfare programs and initiatives",
+      "category": "Children",
+      "category_bg": "#2E4374",
+      "card_bg": "#071952",
+      "text_button_bg": "#337CCF",
+      "price": 50
+    },
+    {
+      "id": 10,
+      "picture": "https://ibb.co/brv0HH8",
+      "title": "Women's Empowerment",
+      "description": "Foster empowerment for women and girls through educational opportunities and economic self-sufficiency.",
+      "category": "Empowerment",
+      "category_bg": "#FF5733",
+      "card_bg": "#12486B",
+      "text_button_bg": "#337CCF",
+      "price": 60
+    },
+    {
+      "id": 11,
+      "picture": "https://ibb.co/SNtp435",
+      "title": "Elderly Care",
+      "description": "Spread love and kindness by backing programs that offer tender care and assistance to our cherished elderly.",
+      "category": "Elderly",
+      "category_bg": "#451952",
+      "card_bg": "#071952",
+      "text_button_bg": "#337CCF",
+      "price": 40
+    },
+    {
+      "id": 12,
+      "picture": "https://ibb.co/h7v6P8y",
+      "title": "Youth Development",
+      "description": "Nurture the future by investing in youth development programs and fostering education.",
+      "category": "Youth",
+      "category_bg": "#2E4374",
+      "card_bg": "#12486B",
+      "text_button_bg": "#071952",
+      "price": 65
+    }
+  ]
