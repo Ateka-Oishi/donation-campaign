@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useLoaderData } from "react-router-dom";
-import { getStoredDonation } from "../../utilities/storedDonation";
+import { getStoredDonation } from "../../utilities/storeDonation";
 import { useState, useEffect } from "react";
 
 
