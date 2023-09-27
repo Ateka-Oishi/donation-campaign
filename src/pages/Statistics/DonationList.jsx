@@ -19,7 +19,7 @@ const DonationList = () => {
         }
         setDonated(donate);
         setDisplayDonation(donate);
-        // console.log(donationList, storeDonateIds);
+        console.log(donationList, storeDonateIds);
       }
     }, [donationList]);
 

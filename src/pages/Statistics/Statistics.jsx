@@ -14,7 +14,7 @@ const Statistics = () => {
   ];
 
   const COLORS = ['#FFBB28', '#00C49F'];
-  console.log('Donated');
+  // console.log('Donated');
 
   return (
     <div>

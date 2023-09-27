@@ -18,5 +18,4 @@ const saveDonation = id =>{
 }
 
 export {getStoredDonation, saveDonation}
-export  const storeDonateIds = getStoredDonation();
 

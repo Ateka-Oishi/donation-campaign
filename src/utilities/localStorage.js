@@ -12,7 +12,7 @@ export const saveLocalStorage = (donation) => {
     }
 
     else{
-      const isExist = donationItems.find(donation=>donation.id === id);
+      const isExist = donationItems.find((donation)=>donation.id === id);
       if (!isExist){
 
         addedDonationArray.push(...donationItems, donation);
