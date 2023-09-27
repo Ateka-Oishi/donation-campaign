@@ -1,4 +1,6 @@
 
+
+
 const Banner = () => {
     return (
         <div className="h-[70vh] relative bg-cover bg-no-repeat bg-overlay mb-5 flex items-center justify-center mx-auto" style={{ backgroundImage: `url(../banner.png)` }}>
