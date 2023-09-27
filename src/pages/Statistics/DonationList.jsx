@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-import { useLoaderData } from "react-router-dom";
+
+import {  useLoaderData } from "react-router-dom";
 import { getStoredDonation } from "../../utilities/storeDonation";
 import { useState, useEffect } from "react";
 
@@ -19,7 +20,7 @@ const DonationList = () => {
         }
         setDonated(donate);
         setDisplayDonation(donate);
-        console.log(donationList, storeDonateIds);
+         console.log(donationList, storeDonateIds);
       }
     }, [donationList]);
 

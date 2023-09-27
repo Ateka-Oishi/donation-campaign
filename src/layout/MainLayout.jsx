@@ -1,22 +1,22 @@
-import { Outlet, useLocation } from "react-router-dom";
+// import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "../components/Header/Navbar/Navbar";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 const MainLayout = () => {
      
-    const loc = useLocation();
-    console.log(loc);
-    useEffect(()=>{
+    // const loc = useLocation();
+    // console.log(loc);
+    // useEffect(()=>{
 
-        console.log(loc.pathname);
-        if(loc.pathname === '/'){
-            document.title = 'Donation-home'
+    //     console.log(loc.pathname);
+    //     if(loc.pathname === '/'){
+    //         document.title = 'Donation-home'
 
-        }
-        else{
-            document.title = `Donation ${loc.pathname.replace('/', '-')}`
+    //     }
+    //     else{
+    //         document.title = `Donation ${loc.pathname.replace('/', '-')}`
 
-        }
-    },[loc.pathname])
+    //     }
+    // },[loc.pathname])
 
     return (
         <div className="max-w-[1300px] mx-auto">
