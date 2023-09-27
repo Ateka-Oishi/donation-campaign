@@ -1,12 +1,13 @@
 
+
 const Statistics = () => {
     
-    return (
-        <div>
-           <h1>Statistics</h1>
-           
-        </div>
-    );
+
+  return (
+    <div>
+       
+    </div>
+  );
 };
 
 export default Statistics;

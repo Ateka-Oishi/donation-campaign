@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div className="h-[70vh] relative bg-cover bg-no-repeat bg-overlay mb-5 flex items-center justify-center mx-auto" style={{ backgroundImage: 'url("../../../../public/banner.png")' }}>
+        <div className="h-[70vh] relative bg-cover bg-no-repeat bg-overlay mb-5 flex items-center justify-center mx-auto" style={{ backgroundImage: `url(../banner.png)` }}>
         <div className="absolute inset-0 bg-[whitesmoke] opacity-95"></div>
         <div className="relative z-10 text-center">
           <h1 className="text-3xl md:text-2xl text-[#0B0B0B] font-bold">I Grow By Helping People In Need</h1>

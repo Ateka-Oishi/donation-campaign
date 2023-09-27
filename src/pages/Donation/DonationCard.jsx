@@ -15,8 +15,8 @@ const {id, picture, title, category, category_bg, card_bg, text_button_bg, descr
         <img src={picture} alt="image" className="h-full w-full object-cover" />
         </div>
         <div className="p-6">
-           <h6 style={{color:text_button_bg, backgroundColor:category_bg}} className="mb-4 block w-[100px] font-sans text-base font-medium leading-relaxed px-4 py-2 rounded-md shadow-xl antialiased">
-             {category}
+           <h6  style={{color:text_button_bg, backgroundColor:category_bg}} className="mb-4 block w-[100px] font-sans text-base font-medium leading-relaxed px-4 py-2 rounded-md shadow-xl antialiased">
+             {category} 
            </h6>
            <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
              {title}
