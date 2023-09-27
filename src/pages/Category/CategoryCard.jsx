@@ -1,9 +1,41 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom';
+import Swal from 'sweetalert2';
+
+
+
 const CategoryCard = ({donation}) => {
 
     const {id, picture, title, category, category_bg, card_bg, text_button_bg, description} = donation;
+    const handleAddDonations = () =>{
+      const addedDonationArray = []
+      const donationItems = JSON.parse(localStorage.getItem('donation'));
+      // Swal.fire("Great!", `You donated $${donation.price}`, "success");
+      if(!donationItems){
+        addedDonationArray.push(donation);
+        localStorage.setItem('donation', JSON.stringify(addedDonationArray)).
+        Swal.fire("Great!", `You donated $${donation.price}`, "success");
+      }
+
+      else{
+        const isExist = donationItems.find(donation=>donation.id === id);
+        if (!isExist){
+
+          addedDonationArray.push(...donationItems, donation);
+        localStorage.setItem('donation', JSON.stringify(addedDonationArray));
+        Swal.fire("Great!", `You donated $${donation.price}`, "success");
+
+        }
+
+        else{
+          Swal.fire("error!", `You have donated ${donation.category}`, "error")
+        }
+
+      }
+      
+      localStorage.setItem('category', JSON.stringify([{name: 'title'}, {name:'donation'}]))
+    }
    
     return (
         <div>
@@ -19,7 +51,7 @@ const CategoryCard = ({donation}) => {
   <div className="bg-blend-overlay bg-black opacity-40 absolute bottom-0 w-full p-8">
   </div>
   <div className="absolute bottom-3 left-3">
-  <button style={{backgroundColor:text_button_bg}} className="text-[white] p-2 rounded-lg">Donate ${donation.price}</button>
+  <button onClick={()=>handleAddDonations(donation.price)} style={{backgroundColor:text_button_bg}} className="text-[white] p-2 rounded-lg">Donate ${donation.price}</button>
   </div>
 </div>
 </div>

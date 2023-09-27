@@ -1,5 +1,4 @@
 
-
 const Banner = () => {
     return (
         <div className="h-[70vh] relative bg-cover bg-no-repeat bg-overlay mb-5 flex items-center justify-center mx-auto" style={{ backgroundImage: 'url("../../../../public/banner.png")' }}>
@@ -7,7 +6,7 @@ const Banner = () => {
         <div className="relative z-10 text-center">
           <h1 className="text-3xl md:text-2xl text-[#0B0B0B] font-bold">I Grow By Helping People In Need</h1>
           <div className="mt-4">
-          <input
+          <input id="search"
          type="text" 
          className="px-4 py-2 text-gray-900 border border-custom-gray rounded-md"
          placeholder="Search here...."

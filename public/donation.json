@@ -8,7 +8,7 @@
       "category_bg": "rgba(255, 68, 74, 0.20)",
       "card_bg": "rgba(255, 68, 74, 0.15)",
       "text_button_bg": "#FF444A",
-      "price": 55
+      "price": 290
   },
   {
       "id": 2,
@@ -19,7 +19,7 @@
       "category_bg": "rgba(248, 113, 71, 0.20)",
       "card_bg": "rgba(248, 113, 71, 0.15)",
       "text_button_bg": "#F87147",
-      "price": 20
+      "price": 200
   },
   {
       "id": 3,
@@ -29,7 +29,7 @@
       "category": "Health",
       "category_bg": "rgba(0, 82, 255, 0.20)",
       "card_bg": "rgba(0, 82, 255, 0.15)",
-      "text_button_bg": "#0052FF",
+      "text_button_bg": "#52FF",
       "price": 100
   },
   {
@@ -41,7 +41,7 @@
       "category_bg": "rgba(121, 194, 63, 0.20)",
       "card_bg": "rgba(121, 194, 63, 0.15)",
       "text_button_bg": "#79C23F",
-      "price": 25
+      "price": 220
   },
   {
       "id": 5,
@@ -52,7 +52,7 @@
       "category_bg": "rgba(248, 113, 71, 0.15)",
       "card_bg": "rgba(248, 113, 71, 0.20)",
       "text_button_bg": "#F87147",
-      "price": 70
+      "price": 300
   },
   {
       "id": 6,
@@ -63,7 +63,7 @@
       "category_bg": "rgba(255, 68, 74, 0.20)",
       "card_bg": "rgba(255, 68, 74, 0.15)",
       "text_button_bg": "#FF444A",
-      "price": 60
+      "price": 100
   },
   {
       "id": 7,
@@ -74,7 +74,7 @@
       "category_bg": "rgba(121, 194, 63, 0.20)",
       "card_bg": "rgba(121, 194, 63, 0.15)",
       "text_button_bg": "#79C23F",
-      "price": 45
+      "price": 90
   },
   {
       "id": 8,
@@ -84,8 +84,8 @@
       "category": "Health",
       "category_bg": "rgba(0, 82, 255, 0.20)",
       "card_bg": "rgba(0, 82, 255, 0.15)",
-      "text_button_bg": "#0052FF",
-      "price": 55
+      "text_button_bg": "#52FF",
+      "price": 120
   },
   {
       "id": 9,
@@ -96,7 +96,7 @@
       "category_bg": "rgba(121, 194, 63, 0.20)",
       "card_bg": "rgba(121, 194, 63, 0.15)",
       "text_button_bg": "#79C23F",
-      "price": 65
+      "price": 80
   },
   {
       "id": 10,
@@ -106,7 +106,7 @@
       "category": "Health",
       "category_bg": "rgba(0, 82, 255, 0.20)",
       "card_bg": "rgba(0, 82, 255, 0.15)",
-      "text_button_bg": "#0052FF",
+      "text_button_bg": "#52FF",
       "price": 40
   },
   {
@@ -129,6 +129,6 @@
       "category_bg": "rgba(255, 68, 74, 0.20)",
       "card_bg": "rgba(255, 68, 74, 0.15)",
       "text_button_bg": "#FF444A",
-      "price": 50
+      "price": 290
   }
 ]
